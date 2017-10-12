@@ -1,0 +1,19 @@
+{
+  "name": "flash_cards",
+  "version": "0.0.1",
+  "description": "Flash cards",
+  "author": "Mohamad Esmaeilpour (esmaeilpoor.info@gmail.com)",
+  "main": "build/main.js",
+  "dependencies": {
+    "backpack-core": "^0.4.2",
+    "mongodb": "^2.2.26",
+    "source-map-support": "^0.5.0",
+    "tgux": "^0.1.6"
+  },
+  "scripts": {
+    "dev": "backpack",
+    "build": "backpack build",
+    "start": "node build/main.js"
+  },
+  "devDependencies": {}
+}
